@@ -1,0 +1,17 @@
+# Large binaries — do NOT commit to GitHub
+ffmpeg copy.exe
+ffmpeg.exe
+*.exe
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files (can be large)
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
